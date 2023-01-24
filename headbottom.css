@@ -1,0 +1,172 @@
+
+
+  /*   header part css for the all pages */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:wght@400;600;700&family=Oxygen:wght@300;400;700&family=Sofia+Sans:wght@200;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+position: fixed;
+z-index: 1;
+
+}
+
+.header>img {
+    width: 150px;
+    margin: 1% 1%;
+    display: flex;
+}
+
+.header ul {
+
+    width: 45%;
+    margin: auto;
+    margin-bottom: 1px;
+    margin-right: 0px;
+    text-align: center;
+    /* background-color: aqua; */
+    font-size: 20px;
+}
+
+.header  a{
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Crimson Text', serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Sofia Sans', sans-serif;
+    text-decoration: none;
+    color:black
+}
+
+.header li {
+    list-style: none;
+    display: inline-block;
+    width: 20%;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 1px;
+    border: 1px solid black;
+    /* background: red; default color */
+    /* "to left" / "to right" - affects color */
+    background: linear-gradient(to left, transparent 50%, hwb(36 0% 5%) 0%) right;
+    background-size: 200%;
+    transition: .2s ease-in;
+}
+
+ .header li:hover {
+
+    background-position: left;
+    color: white;
+    border-radius: 10px;
+    padding: 1px;
+    border: 1px solid black;
+}
+
+.back {
+    width: 100%;
+    /* border: 1px solid black; */
+    position: relative;
+
+}
+
+.back img {
+    width: 100%;
+    /* height:400px; */
+}
+
+.back h1 {
+    position: absolute;
+    bottom: 10%;
+    left: 3%;
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    padding: 1%;
+    border-radius: 15px;
+    /* color: white; */
+}
+
+span h1 {
+    text-align: center;
+}
+
+h1 {
+    margin-left: 5%;
+}
+
+
+/*  css of the header is close  */
+
+/*  css for the footer of all pages */
+
+
+.footer {
+    height: 150px;
+    display:flex;
+    background-color:orangered;
+}
+
+.footer p{
+    margin:auto;
+    margin-bottom:1%;
+    width: 90%;
+    text-align: center;
+    font-size:large
+    }
+
+.footer a{
+    padding:0px 1%;
+    text-decoration:none;
+    position: relative;
+    font-size:large
+}
+
+.feed{
+    width: 39%;
+display: flex;
+position: absolute;
+margin: 6px;
+margin-left: 20%;
+}
+input{
+height: 28px;
+width: 47%;
+margin-left: 39%;
+
+}
+input[type="submit"]{
+width: 12%;
+height: 30px;
+margin-left: 3%;
+}
+ .feed1 img{
+width:53%;
+border-radius: 0%;
+text-align: center;
+padding: 0px 25px 0px 10px ;
+/* background-color: aliceblue; */
+transition: .2s ease-in;
+}
+
+.feed1 img:hover{
+transform:scale(1.1) ;
+/* background-color: rgb(114, 253, 0); */
+}
+
+.feed1{
+    display: flex;
+position: absolute;
+margin-left: 38%;
+margin-top:50px;
+}
